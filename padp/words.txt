@@ -1,0 +1,20 @@
+hgj
+
+//./a.out in.png out.png
+cc p4.c -fopenmp -lgd
+
+
+Write MPI- C program which estimates the time it takes 
+to send a vector of N double precision values through the
+each process in a ring.	1,2,4			
+The","around","graphics","from","by","be","any","which","various","mount"
+
+
+
+
+Compile: 
+gcc -o gfg -fopenmp geeksforgeeks.c
+
+Execute:
+./gfg
+
