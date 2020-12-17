@@ -17,27 +17,27 @@ void timestamp ( );
 
 int main ( int argc, char *argv[] )
 {
-double a;
-double b;
-double error;
-double exact;
-int i;
-int master = 0;
-double my_a;
-double my_b;
-int my_id;
-int my_n;
-double my_total;
-int n;
-int p;
-int p_num;
-int source;
-MPI_Status status;
-int tag;
-int target;
-double total;
-double wtime;
-double x;
+      double a;
+      double b;
+      double error;
+      double exact;
+      int i;
+      int master = 0;
+      double my_a;
+      double my_b;
+      int my_id;
+      int my_n;
+      double my_total;
+      int n;
+      int p;
+      int p_num;
+      int source;
+      MPI_Status status;
+      int tag;
+      int target;
+      double total;
+      double wtime;
+      double x;
 
   a =  0.0;
   b = 10.0;
