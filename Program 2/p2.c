@@ -1,8 +1,9 @@
 
 /* Write an OpenMP program that computes a simple matrix-matrix multiplication using dynamic memory allocation.
 a) Illustrate the correctness of the program.
-b) Justify the inference when outer ìforî loop is parallelized with and without using the explicit data scope variables.
+b) Justify the inference when outer ‚Äúfor‚Äù loop is parallelized with and without using the explicit data scope variables.
 */
+
 
 #include<omp.h>
 #include<stdio.h>
@@ -13,13 +14,12 @@ int main(){
 
 int r, c, i, j, count=0, sum =0, k,thread;
 
-printf("/* openmp program to compute a matrix-multiplication \nusing dynamic memory allocation */\n\n");
-
-printf("Enter number of Rows :   ");
+printf("Enter no. of Rows : ");
 scanf("%d",&r);
-printf("Enter number of Columns: ");
+printf("Enter no. of Columns: ");
 scanf("%d",&c);
-printf("\nEnter number of Threads: ");
+
+printf("Enter no. of Threads: ");
 scanf("%d",&thread);
 
 //dynamically allocate arrays
@@ -52,3 +52,6 @@ double y = omp_get_wtime();
 printf("\nTime taken : %lf sec\n", y-x);
 return 0;
 }
+
+  
+
